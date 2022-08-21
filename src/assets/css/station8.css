@@ -1,0 +1,43 @@
+#container {
+	display: grid;
+	grid-template-areas:
+	"header header"
+	"item1  item2 "
+	"item1  item3 "
+	"item1  item4 "
+	"footer footer";
+	grid-template-columns: 40px 1fr;
+	column-gap: 10px;
+	row-gap: 10px;
+
+}
+
+.header {
+	background-color: blue;
+	grid-area: header;
+}
+
+.item1 {
+	background-color: gray;
+	grid-area: item1;
+}
+
+.item2 {
+	background-color: gray;
+	grid-area: item2;
+}
+
+.item3 {
+	background-color: gray;
+	grid-area: item3;
+}
+
+.item4 {
+	background-color: gray;
+	grid-area: item4;
+}
+
+.footer {
+	background-color: green;
+	grid-area: footer;
+}
